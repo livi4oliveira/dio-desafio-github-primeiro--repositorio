@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="livia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-13 11:48:58 "/>
+        <attribute name="created" value="bGl2aWE7TEFQVE9QLUkwRkNTSzRNOzIwMjItMDEtMTM7IjExOjI0OjEyICI7Mjc2NA=="/>
+        <attribute name="edited" value="bGl2aWE7TEFQVE9QLUkwRkNTSzRNOzIwMjItMDEtMTM7IjExOjQ4OjU4ICI7MTsyODg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nota1, Nota2, Nota3, Nota4, MEDIA, SOMA" type="Real" array="False" size=""/>
+            <input variable="Nota1"/>
+            <input variable="Nota2"/>
+            <input variable="Nota3"/>
+            <input variable="Nota4"/>
+            <assign variable="MEDIA" expression="(Nota1+Nota2+Nota3+Nota4)/4"/>
+            <assign variable="SOMA" expression="(Nota1+Nota2+Nota3+Nota4)"/>
+            <output expression="MEDIA" newline="True"/>
+            <output expression="SOMA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
